@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Бутстрап</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://use.fontawesome.com/40f927d30c.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+<header class="navbar navbar-inverse screen-only">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Control Panel</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Admin
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 1</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header> 
+
+  <header class="navbar navbar-inverse mobile-only">
+    <div class="container">
+      <div class="col-sm-3">
+        <a class="navbar-brand" href="#">Control Panel</a>
+      </div>
+      <ul class="nav navbar-nav col-sm-9 user">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Admin
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 1</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <div class="border"><ul class="nav flex-column">
+              <h2 class="border"><span class="glyphicon glyphicon-briefcase"></span> Toolbox</h2>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-flash"></span> Alerts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-link"></span> Links</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-list-alt"></span> Reports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-book"></span> Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-briefcase"></span> Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-time"></span> Real-time</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-plus"></span> Advanced</a>
+              </li>
+            </ul></div>
+      </div><!-- Закрывает "col-md-3" -->
+
+     <div class="col-md-9 col-sm-9">
+
+      <h2 class="border"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</h2>
+      <div class="col-md-7">
+          <div class="well">Inbox Messages<span class="badge">3</span></div>
+          <div class="panel panel-default">
+            <h4 class="panel-heading">Processing Status</h4>
+            <div class="panel-body">
+              Complete
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                <span class="sr-only">70% Complete</span>
+                </div>
+              </div>
+              In Progress
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                <span class="sr-only">20% Complete</span>
+                </div>
+              </div>
+              At Risk
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                <span class="sr-only">80% Complete</span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div><!-- Закрывает "col-md-7" -->
+
+      <div class="col-md-5">
+        <div class="border">
+          <ul class="icons">
+            <a href="#"><div class="icon-wrapper"><li><span class="glyphicon glyphicon-cog"></span></li></div></a><!--  
+            --><a href="#"><div class="icon-wrapper"><li><span class="glyphicon glyphicon-heart"></span></li></div></a><!--
+            --><a href="#"><div class="icon-wrapper"><li><div class="custom-badge">3</div><span class="glyphicon glyphicon-comment"></span></li></div></a><!--
+            --><a href="#"><div class="icon-wrapper"><li><span class="glyphicon glyphicon-user"></span></li></div></a><!--
+            --><a href="#"><div class="icon-wrapper"><li><span class="glyphicon glyphicon-plus-sign"></span></li></div></a>
+          </ul>
+      </div><!-- Закрывает "col-md-5" -->
+
+      <div class="border">
+        <p>This is a responsive dashboard-style layout that uses <a href="#">Bootstrap 3</a>. You can use this template as a starting point to create something more uniique.
+        Visit the Bootstrap Playground at <a href="#">Link</a> to tweak this layout or discover 1000's of Bootstrap code examples and snippets.</p>
+      </div><!-- Закрывает "border" с иконками -->
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-info"><a href="#"><span class="glyphicon glyphicon-plus"></span></a><br>Service</button>
+        <button type="button" class="btn btn-info"><a href="#"><span class="glyphicon glyphicon-cloud"></span></a><br>Cloud</button>
+        <button type="button" class="btn btn-info"><a href="#"><span class="glyphicon glyphicon-cog"></span></a><br>Tools</button>
+        <button type="button" class="btn btn-info"><a href="#"><span class="glyphicon glyphicon-question-sign"></span></a><br>Help</button>
+      </div><!-- Закрывает "btn-group" -->
+
+     </div><!-- Закрывает "col-md-9" -->
+    </div><!-- Закрывает "row" -->
+  </div> <!-- Закрывает "container" -->
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <h4 class="reports"><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Reports</a></h4>
+      </div><!-- Закрывает "col-md-12" -->
+    </div><!-- Закрывает "row" -->
+  </div><!-- Закрывает "container" -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table">
+              <thead>
+                <tr>
+                  <th>Visits</th>
+                  <th>ROI</th>
+                  <th>Source</th>
+                  <th>Description and Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>45</td>
+                  <td>2.45%</td>
+                  <td>Direct</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis rem cum beatae temporibus cumque minima, vero optio magni delectus voluptates iste, aspernatur! Voluptatibus autem aut nulla blanditiis, officia amet, cumque.</td>
+                </tr>
+                <tr>
+                  <td>289</td>
+                  <td>56.2%</td>
+                  <td>Referral</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis rem cum beatae temporibus cumque minima, vero optio magni delectus voluptates iste, aspernatur! Voluptatibus autem aut nulla blanditiis, officia amet, cumque.</td>
+                </tr>
+                <tr>
+                  <td>98</td>
+                  <td>25%</td>
+                  <td>Type</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis rem cum beatae temporibus cumque minima, vero optio magni delectus voluptates iste, aspernatur! Voluptatibus autem aut nulla blanditiis, officia amet, cumque.</td>
+                </tr>
+                <tr>
+                  <td>109</td>
+                  <td>8%</td>
+                  <td></td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis rem cum beatae temporibus cumque minima, vero optio magni delectus voluptates iste, aspernatur! Voluptatibus autem aut nulla blanditiis, officia amet, cumque.</td>
+                </tr>
+                <tr>
+                  <td>34</td>
+                  <td>14%</td>
+                  <td></td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis rem cum beatae temporibus cumque minima, vero optio magni delectus voluptates iste, aspernatur! Voluptatibus autem aut nulla blanditiis, officia amet, cumque.</td>
+                </tr>
+              </tbody>
+        </table>
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+          <li><a data-toggle="tab" href="#menu1">Messages</a></li>
+          <li><a data-toggle="tab" href="#menu2">Settings</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+           <h3><span class="glyphicon glyphicon-user"></span></h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis rem cum beatae temporibus cumque minima, vero optio magni delectus voluptates iste, aspernatur! Voluptatibus autem aut nulla blanditiis, officia amet, cumque.</p>
+           </div>
+           <div id="menu1" class="tab-pane fade">
+             <h3>Menu 1</h3>
+             <p>Some content in menu 1.</p>
+           </div>
+           <div id="menu2" class="tab-pane fade">
+             <h3>Menu 2</h3>
+             <p>Some content in menu 2.</p>
+           </div>
+        </div><!-- Закрывает "tab-content" -->
+        <div class="panel">
+          <div class="panel panel-default">
+            <h4 class="panel-heading">New Requests</h4>
+            <div class="panel-body">
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Hosting virtual mailbox serv...</div>
+                  <div class="panel-body">Dedicated server doesn't..</div>
+                  <div class="panel-body">RHEL 6 install on new..</div>
+                </div>
+             </div>
+            </div>
+        </div><!-- Закрывает "panel" -->
+        <div class="alert alert-info alert-dismissable"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Please remember to <strong>Logout</strong> for classified security.</div><!-- Закрывает "alert" -->
+      </div><!-- Закрывает "col-md-8" -->
+      <div class="col-md-4">
+        <div class="border"><ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="glyphicon glyphicon-list"></span> Layouts&Templates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="glyphicon glyphicon-briefcase"></span> Toolbox</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="glyphicon glyphicon-link"></span> Widgets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="glyphicon glyphicon-list-alt"></span> Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="glyphicon glyphicon-book"></span> Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="glyphicon glyphicon-star"></span> Social Media</a>
+          </li>
+        </ul></div>
+        <div class="panel panel-default">
+            <h4 class="panel-heading">Submit Request<span class="glyphicon glyphicon-wrench"></span></h4>
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <label for="email">Name</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Title</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="comment">Details</label>
+                  <textarea class="form-control" rows="3" id="comment"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="sel1">Select</label>
+                  <select class="form-control" id="sel1">
+                    <option>General Question</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary" id="post">Post</button>
+              </form>
+            </div>
+        </div><!-- Закрывает "panel panel-default" -->
+        <div class="panel panel-default">
+          <h4 class="panel-heading">Engagement</h4>
+          <div class="panel-body" align="center">
+            <a href="#"><div class="circle-wrapper"><p class="circle">80x80</p></div></a><!--  
+            --><a href="#"><div class="circle-wrapper"><p class="circle">80x80</p></div></a><!--
+            --><a href="#"><div class="circle-wrapper"><p class="circle">80x80</p></div></a>
+          </div>
+        </div><!-- Закрывает "panel panel-default" -->
+      </div><!-- Закрывает "col-md-4" -->
+    </div><!-- Закрывает "row" -->
+  </div><!-- Закрывает "container" -->
+
+  <div class="mobile-only">
+      Mobile only
+  </div>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+    The Bootstrap 3 dashboard layout is compliments of <strong><a href="#">example</a></strong>
+    </div>
+  </nav>
+
+</body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

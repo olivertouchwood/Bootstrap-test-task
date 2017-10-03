@@ -1,0 +1,176 @@
+.navbar {
+	border-radius: 0;
+}
+
+.border {
+	border-bottom: 1px solid #e4e4e4;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+.badge {
+	float: right;
+}
+
+.col-md-5 li {
+	display: inline-block;
+	width: 20%;
+}
+
+.icon-wrapper {
+	display: inline-block;
+	width: 20%;
+	height: 4rem;
+	text-align: center;
+}
+
+.icon-wrapper:hover {
+	background-color: #c6c6c6;
+}
+
+.icon-wrapper span {
+	padding-top: 1rem;
+}
+
+.btn-group .glyphicon {
+	color: white;
+	font-size: 1.5rem;
+}
+
+.btn-group {
+	width: 100%;
+}
+
+button {
+	width: 25%;
+}
+
+.reports {
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.btn-primary {
+	width: auto;
+}
+
+.glyphicon-wrench {
+	float: right;
+}
+
+.circle {
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	background-color: #f1f1f1;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.circle:hover {
+	background-color: #c6c6c6;
+}
+
+.circle-wrapper {
+	width: 33.3%;
+	display: inline-block;
+}
+
+.navbar-default {
+	margin-bottom: 0;
+	text-align: center;
+	padding-top: 15px;
+}
+
+h4 {
+	margin-top: 0;
+}
+
+.custom-badge {
+	background-color: green;
+	font-size: 10px;
+	color: white;
+	border-radius: 100%;
+	width: 12px;
+	height: 13px;
+	padding-bottom: 10px;
+	position: relative;
+	top: 15px;
+	left: 10px;
+	z-index: 2;
+}
+
+a {
+	text-decoration: none;
+}
+
+.icons {
+	padding-left: 0;
+}
+
+
+.mobile-only {
+		display: none;
+	}
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+	.mobile-only {
+		display: block;
+	}
+
+	.screen-only {
+		display: none;
+	}
+
+	.btn-group {
+	width: 100%;
+	margin-bottom: 20px;
+	}
+
+	.user {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 641px) {
+	.mobile-only {
+		display: block;
+	}
+
+	.screen-only {
+		display: none;
+	}
+
+	.icon-wrapper {
+	display: block;
+	width: 100%;
+	height: 4rem;
+	text-align: center;
+	}
+
+	.btn-group {
+	width: 100%;
+	margin-bottom: 20px;
+	}
+
+	.user {
+	float: right;
+	}
+
+	.custom-badge {
+	background-color: green;
+	font-size: 10px;
+	color: white;
+	border-radius: 100%;
+	width: 12px;
+	height: 13px;
+	padding-bottom: 10px;
+	position: relative;
+	top: 15px;
+	left: 10px;
+	z-index: 2;
+	}
+}
